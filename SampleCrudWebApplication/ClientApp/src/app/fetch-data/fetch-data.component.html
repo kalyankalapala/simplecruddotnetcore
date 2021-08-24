@@ -7,21 +7,21 @@
 <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="forecasts">
   <thead>
     <tr>
-      <!-- <th>EmployeeID (F)</th> -->
+      <th>EmployeeID (F)</th>
       <th>EmployeeNumber</th>
       <th>FullName</th>
       <th>DateOfBirth (C)</th>
-      <!-- <th>IdNumber</th> -->
+      <th>IdNumber</th>
       <th>Address</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let forecast of forecasts">
-      <!-- <td>{{ forecast.employeeID }}</td> -->
+      <td>{{ forecast.employeeID }}</td>
       <td>{{ forecast.employeeNumber }}</td>
       <td>{{ forecast.fullName }}</td>
       <td>{{ forecast.dateOfBirth }}</td>
-      <!-- <td>{{ forecast.idNumber }}</td> -->
+      <td>{{ forecast.idNumber }}</td>
       <td>{{ forecast.address }}</td>
     </tr>
   </tbody>
