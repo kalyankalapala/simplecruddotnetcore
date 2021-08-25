@@ -58,19 +58,19 @@ namespace SimpleCrud.Database
                     {
                         EmployeeID=1,
                         EmployeeNumber = 10000,
-                        FullName = "Ajith Ramawickrama",
-                        DateOfBirth = new DateTime(1988, 10, 22),
+                        FullName = "Mahesh",
+                        DateOfBirth = new DateTime(1998, 10, 22),
                         IDNumber = "234242312X",
-                        Address = "Colombo Sri Lanka"
+                        Address = "Bangalore"
                     },
                      new Employee
                      {
                          EmployeeID = 2,
                          EmployeeNumber = 10000,
-                         FullName = "Perter Manuel",
-                         DateOfBirth = new DateTime(1988, 10, 31),
+                         FullName = "kalyan",
+                         DateOfBirth = new DateTime(1996, 10, 31),
                          IDNumber = "234242312X",
-                         Address = "New york, United States"
+                         Address = "Mumbai"
                      }
                 );
         }
