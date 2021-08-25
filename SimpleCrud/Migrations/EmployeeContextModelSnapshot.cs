@@ -57,20 +57,20 @@ namespace ApiApplication.Migrations
                         new
                         {
                             EmployeeID = 1,
-                            Address = "Colombo Sri Lanka",
-                            DateOfBirth = new DateTime(1988, 10, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Address = "Hyderabad",
+                            DateOfBirth = new DateTime(1983, 10, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EmployeeNumber = 10000,
-                            FullName = "Ajith Ramawickrama",
+                            FullName = "kalyan",
                             IDNumber = "234242312X"
                         },
                         new
                         {
                             EmployeeID = 2,
-                            Address = "New york, United States",
+                            Address = "Bangalore",
                             DateOfBirth = new DateTime(1988, 10, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EmployeeNumber = 10000,
-                            FullName = "Perter Manuel",
-                            IDNumber = "234242312X"
+                            FullName = "Mahesh",
+                            IDNumber = "234242312M"
                         });
                 });
 #pragma warning restore 612, 618
