@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SimpleCrud.Database;
 
-namespace SimpleCrud.Migrations
+namespace ApiApplication.Migrations
 {
     [DbContext(typeof(EmployeeContext))]
-    [Migration("20210825051916_kkalapala")]
-    partial class kkalapala
+    [Migration("20210825092406_kalyan")]
+    partial class kalyan
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

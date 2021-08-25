@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SimpleCrud.Database;
 
-namespace SimpleCrud.Migrations
+namespace ApiApplication.Migrations
 {
     [DbContext(typeof(EmployeeContext))]
     partial class EmployeeContextModelSnapshot : ModelSnapshot
