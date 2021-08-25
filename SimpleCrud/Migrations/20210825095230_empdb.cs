@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ApiApplication.Migrations
 {
-    public partial class kalyankk : Migration
+    public partial class empdb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

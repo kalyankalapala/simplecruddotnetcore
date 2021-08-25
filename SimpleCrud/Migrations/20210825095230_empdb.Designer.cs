@@ -10,8 +10,8 @@ using SimpleCrud.Database;
 namespace ApiApplication.Migrations
 {
     [DbContext(typeof(EmployeeContext))]
-    [Migration("20210825094241_kalyankk")]
-    partial class kalyankk
+    [Migration("20210825095230_empdb")]
+    partial class empdb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
