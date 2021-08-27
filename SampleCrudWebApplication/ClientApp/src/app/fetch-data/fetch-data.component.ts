@@ -15,7 +15,7 @@ export class FetchDataComponent implements OnInit {
   }
   mahesh() {
     // this.http.get<any[]>('https://angmvcapi.azurewebsites.net/api/Employee').subscribe(result => {
-      this.http.get<any[]>('https://angmvcapi.azurewebsites.net/api/Employee').subscribe(result => {
+    this.http.get<any[]>('https://weatherapii.azurewebsites.net/api/Employee').subscribe(result => {
       this.forecasts = result;
     }, error => console.error(error));
   }
